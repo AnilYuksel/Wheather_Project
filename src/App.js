@@ -51,7 +51,7 @@ function App() {
 
   return (
     <div className="App">
-        <button className="button" onClick={getLocation}>Show Wheather condition of your location</button>
+        <button className="button" onClick={getLocation}>Show Weather Condition of Your Location</button>
         {!loading  &&
           <div>
         <div className="weather">
